@@ -6,22 +6,41 @@ import {Link} from "react-router-dom"
 
 function NavBar() {
   return (
-    <div className='bg-white p-4 outline outline-2 outline-black'>
-      <ul className='flex text-black'>
-        <li className='inline bg-transparent hover:bg-slate-400 p-2 rounded-full transition-colors duration-200 ease-in'>
-            <a href="https://www.linkedin.com/in/dylan-correa-586a012a9/" >
-              <FaLinkedin size={30} />
-            </a>
-        </li>
-        <li className='bg-transparent hover:bg-blue-300 p-2 rounded-full transition-colors duration-200 ease-in'>
-             <a href="https://github.com/DylanEzequiel">
-              <FaGithub size={30} />
-             </a>
-        </li>
-        <li className='bg-transparent hover:bg-green-400 p-2 rounded-full transition-colors duration-200 ease-in'>
-          <SiGmail size={30}/>
-        </li>
-      </ul>
+    <div className='bg-fourth_color outline outline-2 outline-black'>
+      <div className='flex justify-between'>
+        <ul className='flex m-2 text-black'>
+          <li >
+            <div className='bg-transparent m-2 p-2 hover:shadow-md drop-shadow-md hover:shadow-white rounded-full transition-all duration-200 ease-in hover:bg-white hover:text-blue-500'>
+              <a href="https://www.linkedin.com/in/dylan-correa-586a012a9/" className='text-3xl'>
+                <FaLinkedin className='' />
+              </a>
+            </div>
+          </li>
+          <li >
+            <div className='bg-transparent hover:shadow-md hover:shadow-black hover:bg-black m-2 p-2 rounded-full hover:text-white transition-all duration-200 ease-in'>
+                <a href="https://github.com/DylanEzequiel" className='text-3xl'>
+                  <FaGithub />
+                </a>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <ul className='flex p-4 select-none'>
+            <li className='p-2'>
+                <b>About Me</b>
+            </li>
+            <li className='p-2'>
+                <b>Background</b>
+            </li>
+            <li className='p-2'>
+                <b>Proyects</b>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 className='p-3 font-bold font-serif'>Dylan Correa</h3>
+        </div>
+      </div>
     </div>
   )
 }

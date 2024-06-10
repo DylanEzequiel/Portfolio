@@ -1,11 +1,11 @@
 import NavBar from './Components/NavBar/NavBar'
-
+import HandCoding from './Components/svg/HandCoding'
 function App() {
 
   return (
-    <div className='bg-black h-full text-white'>
+    <div className='bg-third_color h-full'>
       <NavBar />
-      
+      <HandCoding />
     </div>
   )
 }
