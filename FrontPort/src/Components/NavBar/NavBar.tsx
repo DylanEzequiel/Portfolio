@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import {Link} from "react-router-dom"
 
 
 function NavBar() {
   return (
-    <div className='bg-fourth_color outline outline-2 outline-black'>
+    <div className=' bg-gradient-to-b from-fourth_color from-90% to-transparent '>
       <div className='flex justify-between'>
         <ul className='flex m-2 text-black'>
           <li >
