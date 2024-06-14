@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function NavBar() {
   return (
-    <div className=' bg-gradient-to-b from-fourth_color from-90% to-transparent '>
+    <div className=' bg-fourth_color  '>
       <div className='flex justify-between'>
         <ul className='flex m-2 text-black'>
           <li >
@@ -34,9 +34,6 @@ function NavBar() {
                 <b>Proyects</b>
             </li>
           </ul>
-        </div>
-        <div>
-          <h3 className='p-3 font-bold font-serif'>Dylan Correa</h3>
         </div>
       </div>
     </div>

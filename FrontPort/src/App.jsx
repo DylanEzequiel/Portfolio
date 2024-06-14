@@ -1,13 +1,20 @@
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import Footer from './Components/Footer/Footer'
 import NavBar from './Components/NavBar/NavBar'
+import AboutMe from './views/aboutMe/aboutMe'
 import Home from './views/home/home'
 
 function App() {
 
   return (
-    <div className='bg-third_color min-h-screen'>
+    <div className='bg-third_color w-screen h-screen'>
+     
       <NavBar />
-        <Home />
-      
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='/about' element={<AboutMe />}></Route>
+          </Routes>
+      <Footer />
     </div>
   )
 }
