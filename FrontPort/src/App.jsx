@@ -7,7 +7,7 @@ import Home from './views/home/home'
 function App() {
 
   return (
-    <div className='bg-third_color w-screen h-screen'>
+    <div className='bg-third_color min-w-screen min-h-screen'>
      
       <NavBar />
           <Routes>

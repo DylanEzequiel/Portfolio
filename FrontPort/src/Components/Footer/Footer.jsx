@@ -6,15 +6,15 @@ import ButtonDownload from '../ButtonDownload/ButtonDownload'
 
 function Footer() {
   return (
-    <div className='bottom-0 fixed bg-fourth_color p-4 w-full text-center'>
+    <div className='bottom-0 bg-fourth_color p-4 w-full text-center'>
        
         <div className='flex flex-wrap justify-between border-b-2 border-b-comp_fourth_color'>
             <div className='m-4'>
                 <h4>Contact me:</h4>
                 <p>d.correa.e05@gmail.com</p>
-                <a href="">
+               
                     <ButtonDownload />
-                </a>
+                
             </div>
             <div className='flex flex-row m-4'>
                 <div className='block m-2'>

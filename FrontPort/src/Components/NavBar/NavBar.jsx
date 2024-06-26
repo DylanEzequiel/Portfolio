@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
   return (
     <div className=' bg-fourth_color  '>
       <div className='flex justify-between'>
-        <ul className='flex m-2 text-black'>
+        <ul className='flex text-black'>
           <li >
             <div className='bg-transparent m-2 p-2 hover:shadow-md drop-shadow-md hover:shadow-white rounded-full transition-all duration-200 ease-in hover:bg-white hover:text-blue-500'>
               <a href="https://www.linkedin.com/in/dylan-correa-586a012a9/" className='text-3xl'>
@@ -23,9 +24,12 @@ function NavBar() {
           </li>
         </ul>
         <div>
-          <ul className='flex p-4 select-none'>
+          <ul className='flex m-2 select-none'>
             <li className='p-2'>
-                <b>About Me</b>
+                <Link to={"/"} >Home</Link>
+            </li>
+            <li className='p-2'>
+                <Link to={"/about"} >About Me</Link>
             </li>
             <li className='p-2'>
                 <b>Background</b>
@@ -34,6 +38,9 @@ function NavBar() {
                 <b>Proyects</b>
             </li>
           </ul>
+        </div>
+        <div className='m-4'>
+          <b>Dylan Correa</b>
         </div>
       </div>
     </div>

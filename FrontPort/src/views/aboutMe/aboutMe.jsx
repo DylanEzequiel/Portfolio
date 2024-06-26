@@ -4,10 +4,10 @@ import Question from '../../Components/svg/question/question'
 
 function AboutMe() {
   return (
-    <div className=''>
+    <div className='m-4'>
         <h3 className='m-4 font-bold font-customFont text-3xl'>About me ? 🤔 </h3>
         <div className='flex flex-wrap justify-around'>
-            <div className=' w-1/2 font-serif text-lg'>
+            <div className='w-1/2 font-serif text-lg'>
                 <b>Im a student from life</b>
                 <p>i like to take all the conflicts that life throws at me and face it 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ducimus voluptates vel fugiat quasi doloribus rerum eveniet sed. Odio, cum? Dolore cupiditate, aliquam harum earum nemo a animi asperiores eos.
