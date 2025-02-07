@@ -4,7 +4,7 @@ function HandCoding() {
   return (
     <div  >
        
-            <img src={`${svg}`} alt="Coding hands" className='w-auto' />
+            <img src={`${svg}`} alt="Coding hands" className='' />
       
     </div>
   )
