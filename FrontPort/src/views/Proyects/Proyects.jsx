@@ -2,7 +2,7 @@ import React from 'react'
 import { IoCodeWorking } from "react-icons/io5";
 import ProyectComp from '../../Components/ProyectComp/ProyectComp';
 import coreForce from "../../assets/coreForece/coreForce.jpg"
-import iceCream from "../../assets/iceCream/iceCream.jpg"
+import iceCream from "../../assets/iceCream/IceCream.jpg"
 import gestoria from "../../assets/GestoriaBravo/GestoriaBravo.jpg"
 import blockchain from "../../assets/Blockchain/Blockchain.jpg"
 
