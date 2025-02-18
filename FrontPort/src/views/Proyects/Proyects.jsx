@@ -9,8 +9,8 @@ import blockchain from "../../assets/Blockchain/Blockchain.jpg"
 
 function Proyects() {
   return (
-    <article className='border-[#cccccc94] my-10 border-t-2'>
-        <h3 className="py-10 font-semibold text-2xl text-white"><IoCodeWorking className='inline' size={30}></IoCodeWorking> Proyects</h3>
+    <article className='my-10'>
+        
         <main className='flex flex-col m-auto'>
             
             <ProyectComp 
@@ -19,13 +19,6 @@ function Proyects() {
               techs={["React","Typescript","Postgress","Tailwindcss","Mercado Pago","stripe"]}
               description={"gimnasio"}  
               github={"https://github.com/DylanEzequiel/Front-CoreForce"}
-            ></ProyectComp>
-            <ProyectComp 
-              url={blockchain}
-              title={"Test SmartContracts & web3"}
-              techs={["React","Typescript","Metamask","Web3","Remix ide","Tailwindcss"]}
-              description={"Small test proyect where i created a smart contract wich saved and returned strings"}  
-              github={"https://github.com/DylanEzequiel/ExtrimianChallenge.git"}
             ></ProyectComp>
             <ProyectComp 
               url={iceCream}
@@ -41,6 +34,13 @@ function Proyects() {
               description={"Seguros"}
               github={"https://github.com/DylanEzequiel/GestoriasBravo"}
               vercel={"hola"} 
+            ></ProyectComp>
+            <ProyectComp 
+              url={blockchain}
+              title={"Test SmartContracts & web3"}
+              techs={["React","Typescript","Metamask","Web3","Remix ide","Tailwindcss"]}
+              description={"Small test proyect where i created a smart contract wich saved and returned strings"}  
+              github={"https://github.com/DylanEzequiel/ExtrimianChallenge.git"}
             ></ProyectComp>
             
            
