@@ -1,9 +1,11 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import useStore from '../../../zustandStore';
 
 
-function ProyectComp({url,title,description,github,vercel,techs}){
+function ProyectComp({url,title,descriptionEsp,descriptionEng,github,vercel,techs}){
+  const lang = useStore((state)=>state.language)
 
   return (
     <article className='group flex gap-4 m-2 p-2 rounded-md w-max'>
@@ -14,7 +16,7 @@ function ProyectComp({url,title,description,github,vercel,techs}){
         <main className='flex flex-col justify-between'>
             <div className='max-w-[80%] text-balance'>
                 <h4 className='font-semibold text-white text-xl'>{title}</h4>
-                <p className='text-gray-300 text-sm'>{description}</p>
+                <p className='text-gray-300 text-sm'>{lang=="eng"?descriptionEng:descriptionEsp}</p>
             </div>
             <div>
                 <ul className='flex flex-wrap max-w-[80%] text-center'>
@@ -28,7 +30,7 @@ function ProyectComp({url,title,description,github,vercel,techs}){
             <div className='flex'>
                 <a href={github?github:""} className='flex justify-center gap-1 bg-indigo-900/40 hover:bg-indigo-900 hover:shadow-[0px_0px_8px_4px_rgba(36,48,137,1)] m-2 px-4 py-1 rounded-md font-semibold text-white hover:scale-105 duration-150'><FaGithub className='self-center' /> GitHub</a>
                 {vercel?
-                <button className='flex justify-center gap-1 bg-indigo-900/40 hover:bg-indigo-900 hover:shadow-[0px_0px_8px_4px_rgba(36,48,137,1)] m-2 px-4 py-1 rounded-md font-semibold text-white hover:scale-105 duration-150'><BsBoxArrowUpRight  className='self-center' /> Visit </button>
+                <button className='flex justify-center gap-1 bg-indigo-900/40 hover:bg-indigo-900 hover:shadow-[0px_0px_8px_4px_rgba(36,48,137,1)] m-2 px-4 py-1 rounded-md font-semibold text-white hover:scale-105 duration-150'><BsBoxArrowUpRight  className='self-center' /> {lang=="eng"?"Visit":"Ir"} </button>
                 :null}
             </div>
 

@@ -8,15 +8,15 @@ function Skills() {
   return (
     <article className='m-auto'>
         <header>
-            <h4 className='py-10 font-semibold text-2xl text-white'>
+            <h4 className='py-10 font-semibold text-white text-2xl'>
                 <MdMilitaryTech className='inline' size={30}/> Techs
             </h4>
         </header>
         <main className='flex flex-col gap-4 p-4'>
-          <div className='bg-slate-500/20 rounded-md w-full duration-200'>
+          <div className='bg-gray-600/20 rounded-md w-full duration-200'>
             <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>FrontEnd</h4>
 
-            <aside className='gap-4 grid grid-cols-4 m-auto p-4 grif'>
+            <aside className='gap-2 grid grid-cols-6 m-auto p-2 grif'>
               <TechComp image="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png" title="HTML"></TechComp>
               <TechComp image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" title="CSS"></TechComp>
               <TechComp image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" title="React"></TechComp>
@@ -31,7 +31,7 @@ function Skills() {
             </aside>
           </div>
           <div className='flex justify-between w-full'>
-            <div className='bg-slate-500/20 rounded-md w-[48%]'>
+            <div className='bg-gray-600/20 rounded-md w-[48%]'>
               <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>BackEnd</h4>
 
               <aside className='gap-4 grid grid-cols-3 m-auto p-4'>
@@ -46,7 +46,7 @@ function Skills() {
               </aside>
             </div>
 
-            <div className='bg-slate-500/20 rounded-md w-[48%]'>
+            <div className='bg-gray-600/20 rounded-md w-[48%]'>
               <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>Languages</h4>
 
               <aside className='gap-4 grid grid-cols-3 m-auto p-4'>

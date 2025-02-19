@@ -17,29 +17,35 @@ function Proyects() {
               url={coreForce}
               title={"CoreForce Fitness"}
               techs={["React","Typescript","Postgress","Tailwindcss","Mercado Pago","stripe"]}
-              description={"gimnasio"}  
+              descriptionEsp={"gimnasio"}  
+              descriptionEng={"we go gym"}  
               github={"https://github.com/DylanEzequiel/Front-CoreForce"}
+              vercel={"https://front-core-force.vercel.app"}
             ></ProyectComp>
             <ProyectComp 
               url={iceCream}
               title={"Heladeria IceCream"}
               techs={["React","Typescript","Postgress","Tailwindcss"]}
-              description={"Heladeria"}  
+              descriptionEsp={"Heladeria"}  
+              descriptionEng={"Ice Cream Shop"}  
               github={"https://github.com/leandromortarini2/IceCream"}
+              vercel={"ice-cream-seven.vercel.app"}
             ></ProyectComp>
             <ProyectComp 
               url={gestoria}
               title={"Gestoria Bravo"}
               techs={["React","Typescript","Tailwind css"]}
-              description={"Seguros"}
+              descriptionEsp={"Seguros"}
+              descriptionEng={"Safes"}
               github={"https://github.com/DylanEzequiel/GestoriasBravo"}
-              vercel={"hola"} 
+              vercel={"https://gestorias-bravo.vercel.app"} 
             ></ProyectComp>
             <ProyectComp 
               url={blockchain}
               title={"Test SmartContracts & web3"}
               techs={["React","Typescript","Metamask","Web3","Remix ide","Tailwindcss"]}
-              description={"Small test proyect where i created a smart contract wich saved and returned strings"}  
+              descriptionEng={"Small test proyect where i created a smart contract wich saved and returned strings"}  
+              descriptionEsp={"Miau"}
               github={"https://github.com/DylanEzequiel/ExtrimianChallenge.git"}
             ></ProyectComp>
             
