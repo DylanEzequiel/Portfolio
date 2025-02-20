@@ -5,9 +5,9 @@ import { GrOptimize } from "react-icons/gr";
 
 function Quantity() {
   return (
-    <section className="flex justify-center gap-6 my-24">
+    <section className="flex md:flex-row flex-col justify-center items-center gap-4 my-24 max-w-[48rem]">
         <div
-          className="group relative flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
+          className="group flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
         >
           <div className="group-hover:text-blue-500 top-4 font-semibold text-white text-2xl group-hover:scale-110 duration-200">
           <SiGithubactions size={30} />
@@ -20,7 +20,7 @@ function Quantity() {
           </div>
         </div>
         <div
-          className="group relative flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
+          className="group flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
         >
           <div className="group-hover:text-blue-500 top-4 font-semibold text-white text-2xl group-hover:scale-110 duration-200">
           <GrDeploy size={30} />
@@ -33,7 +33,7 @@ function Quantity() {
           </div>
         </div>
         <div
-          className="group relative flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
+          className="group flex flex-col justify-around items-center bg-gray-600/20 shadow-md border border-gray-700 rounded-lg w-60 h-44 text-white hover:scale-105 transition-all duration-300 ease-in-out"
         >
           <div className="group-hover:text-blue-500 top-4 font-semibold text-white text-2xl group-hover:scale-110 duration-200">
           <GrOptimize size={30} />

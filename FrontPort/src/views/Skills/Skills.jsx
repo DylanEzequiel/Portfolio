@@ -16,7 +16,7 @@ function Skills() {
           <div className='bg-gray-600/20 rounded-md w-full duration-200'>
             <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>FrontEnd</h4>
 
-            <aside className='gap-2 grid grid-cols-6 m-auto p-2 grif'>
+            <aside className='md:gap-2 grid grid-cols-4 lg:grid-cols-6 m-auto p-2 grif'>
               <TechComp image="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png" title="HTML"></TechComp>
               <TechComp image="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" title="CSS"></TechComp>
               <TechComp image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" title="React"></TechComp>
@@ -34,7 +34,7 @@ function Skills() {
             <div className='bg-gray-600/20 rounded-md w-[48%]'>
               <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>BackEnd</h4>
 
-              <aside className='gap-4 grid grid-cols-3 m-auto p-4'>
+              <aside className='gap-4 grid grid-cols-2 md:grid-cols-3 m-auto p-4'>
                 
                 <SmallTechComp image={"https://cdn.hackersandslackers.com/2020/05/express.png"} title={"Express"}></SmallTechComp>
                 <SmallTechComp image={"https://www.svgrepo.com/show/331488/mongodb.svg"} title={"MongoDB"}></SmallTechComp>
@@ -49,7 +49,7 @@ function Skills() {
             <div className='bg-gray-600/20 rounded-md w-[48%]'>
               <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>Languages</h4>
 
-              <aside className='gap-4 grid grid-cols-3 m-auto p-4'>
+              <aside className='gap-4 grid grid-cols-2 md:grid-cols-3 m-auto p-4'>
               <SmallTechComp image={"https://media.licdn.com/dms/image/D4D12AQFpMentYRp9WQ/article-cover_image-shrink_600_2000/0/1685558134344?e=2147483647&v=beta&t=wC8RJObS5Ex2crRSTfK2QTWsrw5uJEX9796onE49cuI"} title={"Apex"}></SmallTechComp>
               <SmallTechComp image={"https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"} title={"JavaScript"}></SmallTechComp>
               <SmallTechComp image={"https://static-00.iconduck.com/assets.00/typescript-icon-icon-1024x1024-vh3pfez8.png"} title={"TypeScrip"}></SmallTechComp>

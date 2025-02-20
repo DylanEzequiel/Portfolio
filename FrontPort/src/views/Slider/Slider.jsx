@@ -16,17 +16,17 @@ function Slider() {
       };
   return (
     <div className='mt-20'>
-        <header className='m-auto w-full'>
-            <ul className='flex flex-row justify-between shadow-blue-300/20 shadow-xl text-center select-none'>
-                <li  onClick={()=>setRender("Proyects")} className={`font-semibold hover:cursor-pointer  text-white text-xl border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "Proyects"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
+        <header className='md:m-auto'>
+            <ul className='flex flex-row justify-between shadow-blue-300/20 shadow-xl text-md md:text-xl text-center select-none'>
+                <li  onClick={()=>setRender("Proyects")} className={`font-semibold hover:cursor-pointer  text-white  border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "Proyects"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
                     {lang=="eng"?"Proyects":"Proyectos"}
                 </li>
                 
-                <li onClick={()=>setRender("About Me")} className={`font-semibold hover:cursor-pointer  text-white text-xl border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "About Me"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
+                <li onClick={()=>setRender("About Me")} className={`font-semibold hover:cursor-pointer  text-white  border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "About Me"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
                     {lang=="eng"?"About Me":"Sobre mí"}
                 </li>
 
-                <li  onClick={()=>setRender("Experience")} className={`font-semibold text-white hover:cursor-pointer text-xl border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "Experience"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
+                <li  onClick={()=>setRender("Experience")} className={`font-semibold text-white hover:cursor-pointer  border-b-2  duration-200 shadow-2xl shadow-blue-500 border-b-blue-500  w-1/3 ${render != "Experience"?"hover:border-b-blue-400 border-b-gray-500 shadow-none shadow-transparent":null}`}>
                     {lang=="eng"?"Experience":"Experiencia"} 
                 </li> 
             </ul>

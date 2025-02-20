@@ -16,7 +16,7 @@ function Home() {
 
 
   return (
-    <main className='bg-[#0e0f1f] min-h-max'>
+    <main className='bg-[#0e0f1f] max-w-full min-h-max'>
       <Header></Header>
       <div className='m-auto max-w-[48rem]'>
         <Presentation></Presentation>

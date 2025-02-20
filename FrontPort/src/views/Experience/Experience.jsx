@@ -6,7 +6,7 @@ function Experience() {
 
   return (
     <div className='mt-10'>
-        <h2 className='font-semibold text-white text-xl'>
+        <h2 className='pl-4 font-semibold text-white text-xl'>
           {lang === "eng" ? "Experience" : "Experiencia"}
         </h2>
         <aside className='px-4'>

@@ -8,20 +8,21 @@ function ProyectComp({url,title,descriptionEsp,descriptionEng,github,vercel,tech
   const lang = useStore((state)=>state.language)
 
   return (
-    <article className='group flex gap-4 m-2 p-2 rounded-md w-max'>
+    <article className='group flex md:flex-row flex-col md:gap-4 lg:m-2 my-10 p-2 rounded-md'>
             
-        <header className='bg-slate-500/30 rounded-md overflow-hidden'>
-            <img src={url} alt={`${title} image`} className='opacity-70 group-hover:opacity-100 w-64 h-48 translate-x-5 translate-y-5 group-hover:translate-x-2 group-hover:translate-y-2 duration-300' />
+        <header className='bg-slate-500/30 rounded-md w-full md:w-[24rem] h-auto md:h-48 overflow-hidden'>
+            <img src={url} alt={`${title} image`} className='md:opacity-70 group-hover:opacity-100 w-full md:w-[24rem] h-auto md:h-48 md:translate-x-5 md:translate-y-5 md:group-hover:translate-x-2 md:group-hover:translate-y-2 duration-300' />
         </header>
-        <main className='flex flex-col justify-between'>
-            <div className='max-w-[80%] text-balance'>
+
+        <main className='flex flex-col justify-between gap-2 p-2 w-full'>
+            <div className='text-balance'>
                 <h4 className='font-semibold text-white text-xl'>{title}</h4>
                 <p className='text-gray-300 text-sm'>{lang=="eng"?descriptionEng:descriptionEsp}</p>
             </div>
             <div>
-                <ul className='flex flex-wrap max-w-[80%] text-center'>
+                <ul className='flex flex-row flex-wrap gap-2 w-full text-center'>
                     {techs.map((element,index) => {
-                        return ( <li key={index} className='m-2 px-1 rounded-sm outline outline-1 font-semibold text-[#bbb] hover:text-white text-sm text-center duration-200 select-none'>{element}</li> )
+                        return ( <li key={index} className='md:m-2 px-1 rounded-sm outline outline-1 font-semibold text-[#bbb] hover:text-white text-sm text-center duration-200 select-none'>{element}</li> )
                         }
                     )}
                 </ul>

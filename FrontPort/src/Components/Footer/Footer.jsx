@@ -7,7 +7,7 @@ function Footer() {
   return (
     
 
-<footer className="shadow">
+<footer className="shadow max-w-full">
     <div >
         <Contact></Contact>
     </div>

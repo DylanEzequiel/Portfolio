@@ -9,9 +9,9 @@ import blockchain from "../../assets/Blockchain/Blockchain.jpg"
 
 function Proyects() {
   return (
-    <article className='my-10'>
+    <article className='my-10 w-full max-w-[48rem]'>
         
-        <main className='flex flex-col m-auto'>
+        <main className='flex flex-col m-auto w-full'>
             
             <ProyectComp 
               url={coreForce}
