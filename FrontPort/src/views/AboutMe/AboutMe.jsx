@@ -9,7 +9,7 @@ function AboutMe() {
         <main className='mt-10'>
             <article className='flex md:flex-row flex-col justify-center'>
 
-                    <img src="https://cdn.picrew.me/shareImg/org/202502/29413_LJbxDQJK.png" alt="Dylan Profile" className='self-center hover:shadow-lg hover:shadow-[#5c543c] rounded-md w-64 h-72 duration-500'/>
+                    {/* <img src="https://cdn.picrew.me/shareImg/org/202502/29413_LJbxDQJK.png" alt="Dylan Profile" className='self-center hover:shadow-lg hover:shadow-[#5c543c] rounded-md w-64 h-72 duration-500'/> */}
 
                 <aside className='px-4'>
                     <div>

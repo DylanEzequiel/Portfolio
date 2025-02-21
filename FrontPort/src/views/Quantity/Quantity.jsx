@@ -2,8 +2,11 @@ import React from 'react'
 import { SiGithubactions } from "react-icons/si";
 import { GrDeploy } from "react-icons/gr";
 import { GrOptimize } from "react-icons/gr";
+import useStore from '../../../zustandStore';
 
 function Quantity() {
+  const lang = useStore(state=>state.language)
+
   return (
     <section className="flex md:flex-row flex-col justify-center items-center gap-4 my-24 max-w-[48rem]">
         <div
@@ -15,7 +18,10 @@ function Quantity() {
           <div className='text-center'>
             <h3 className="font-semibold text-lg">Github</h3>
             <p className="px-4 py-2 text-gray-400 text-sm text-center">
-            Uso de Git y GitHub para el manejo de repositorios, control de versiones y flujos de trabajo colaborativos.
+              {lang=="eng"
+              ?"Use of Git and GitHub for repository management, version control, and collaborative workflow management."
+              :" Uso de Git y GitHub para el manejo de repositorios, control de versiones y flujos de trabajo colaborativos."}
+           
             </p>
           </div>
         </div>
@@ -28,7 +34,10 @@ function Quantity() {
           <div className='text-center'>
             <h3 className="font-semibold text-lg">Deployments</h3>
             <p className="px-4 py-2 text-gray-400 text-sm text-center">
-            Despliegue eficiente en plataformas como Vercel, Netlify y DigitalOcean, asegurando rendimiento y estabilidad.
+            {lang=="eng"
+            ?"Efficient deployment on platforms such as Vercel, Netlify, and DigitalOcean, ensuring performance and stability."
+            :"Despliegue eficiente en plataformas como Vercel, Netlify y DigitalOcean, asegurando rendimiento y estabilidad."}
+            
             </p>
           </div>
         </div>
@@ -41,7 +50,10 @@ function Quantity() {
           <div className='text-center'>
             <h3 className="font-semibold text-lg">SEO Optimization</h3>
             <p className="px-4 py-2 text-gray-400 text-sm text-center">
-            Aplicación de buenas prácticas de SEO técnico para mejorar el rendimiento y visibilidad en motores de búsqueda.
+            {lang=="eng"
+            ?"Application of best technical SEO practices to improve performance and visibility in search engines."
+            :"Aplicación de buenas prácticas de SEO técnico para mejorar el rendimiento y visibilidad en motores de búsqueda."}
+            
             </p>
           </div>
         </div>

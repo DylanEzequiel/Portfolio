@@ -22,7 +22,7 @@ function ProyectComp({url,title,descriptionEsp,descriptionEng,github,vercel,tech
             <div>
                 <ul className='flex flex-row flex-wrap gap-2 w-full text-center'>
                     {techs.map((element,index) => {
-                        return ( <li key={index} className='md:m-2 px-1 rounded-sm outline outline-1 font-semibold text-[#bbb] hover:text-white text-sm text-center duration-200 select-none'>{element}</li> )
+                        return ( <li key={index} className='md:m-1 px-1 rounded-sm outline outline-1 font-semibold text-[#bbb] hover:text-white text-sm text-center duration-200 select-none'>{element}</li> )
                         }
                     )}
                 </ul>
