@@ -50,8 +50,8 @@ function Skills() {
               <h4 className='pt-2 pl-8 font-semibold text-white text-xl'>Languages</h4>
 
               <aside className='gap-4 grid grid-cols-2 md:grid-cols-3 m-auto p-4'>
-              <SmallTechComp image={"https://media.licdn.com/dms/image/D4D12AQFpMentYRp9WQ/article-cover_image-shrink_600_2000/0/1685558134344?e=2147483647&v=beta&t=wC8RJObS5Ex2crRSTfK2QTWsrw5uJEX9796onE49cuI"} title={"Apex"}></SmallTechComp>
-              <SmallTechComp image={"https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"} title={"JavaScript"}></SmallTechComp>
+              <SmallTechComp image={"https://images.ctfassets.net/8cjpn0bwx327/4qh4QnGMijukvgtdmGbFhd/160e0ec00b30c40e5b494199e83c061a/Learning-Apex-Salesforce.png"} title={"Apex"}></SmallTechComp>
+              <SmallTechComp image={"https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png"} title={"JavaScript"}></SmallTechComp>
               <SmallTechComp image={"https://static-00.iconduck.com/assets.00/typescript-icon-icon-1024x1024-vh3pfez8.png"} title={"TypeScrip"}></SmallTechComp>
               
               </aside>

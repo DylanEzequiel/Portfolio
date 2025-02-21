@@ -32,7 +32,7 @@ function Contact() {
       <div className="flex flex-row gap-4 bg-gray-600/20 p-4 rounded-md min-h-max overflow-hidden duration-200">
         <main className="w-full">
           <div>
-            <h5 className="font-semibold text-white text-lg">{lang=="eng"?"Get In Touch!":"Estemos en contacto!"}</h5>
+            <h4 className="font-semibold text-white text-lg">{lang=="eng"?"Get In Touch!":"Estemos en contacto!"}</h4>
           </div>
           {submitted ? (
             <p className="font-semibold text-green-500">{lang=="eng"?"Your message has been sent successfully!":"Tu mensaje fue enviado correctamente!"}</p>
