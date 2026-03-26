@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <main className='bg-[#0e0f1f] max-w-full min-h-max'>
-      <div className='m-auto max-w-[48rem]'>
+      <div className='shadow-[#FFFFFF20] shadow-xl m-auto p-2 max-w-[50rem] overflow-x-hidden'>
         <Presentation></Presentation>
         <Quantity></Quantity>
         <Slider></Slider>

@@ -12,9 +12,9 @@ function Presentation() {
   const [background, setBackground]=useState(image)
   const lang = useStore((state)=>state.language)
   return (
-  <div className='max-w-svw md:max-w-[48rem]'>
-    <div className='-z-10 m-auto w-full'>
-      <img className='absolute m-auto rounded-sm w-[48rem] h-44' rel='preload' src="https://st2.depositphotos.com/12203114/47177/v/450/depositphotos_471777546-stock-illustration-japanese-background-wave-pattern-vector.jpg" alt="Background Banner" />
+  <div className='max-w-svw md:max-w-[50rem]'>
+    <div className='relative w-full'>
+      <img className='absolute rounded-sm w-[50rem] h-44' rel='preload' src="https://st2.depositphotos.com/12203114/47177/v/450/depositphotos_471777546-stock-illustration-japanese-background-wave-pattern-vector.jpg" alt="Background Banner" />
     </div>
     <header className='flex-col gap-4 m-auto pt-24 max-w-[36rem] align-middle'>
             <div className='w-32 lg:w-40'>
