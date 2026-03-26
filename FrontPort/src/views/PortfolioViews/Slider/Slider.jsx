@@ -5,6 +5,7 @@ import Skills from '../Skills/Skills'
 import AboutMe from '../AboutMe/AboutMe'
 import Experience from '../Experience/Experience'
 import useStore from '../../../../zustandStore';
+import Education from '../Education/Education';
 
 function Slider() {
     const [render,setRender]=useState("Experience")
@@ -29,6 +30,9 @@ function Slider() {
                     {lang=="eng"?"Proyects":"Proyectos"}
                 </li>
                 
+                <li onClick={()=>setRender("Education")} className={[styleSection,conditional("Education")]}>
+                    {lang=="eng"?"Education":"Educación"}
+                </li>
                 <li onClick={()=>setRender("About Me")} className={[styleSection,conditional("About Me")]}>
                     {lang=="eng"?"About Me":"Sobre mí"}
                 </li>
@@ -46,6 +50,7 @@ function Slider() {
                 {render == "Proyects"?<div> <Proyects/> </div>:""}
                 {render == "About Me"?<><AboutMe/></>:""}
                 {render == "Experience"?<><Experience/></>:""}
+                {render == "Education"?<><Education/></>:""}
             </motion.div>
         </main>
     </div>
