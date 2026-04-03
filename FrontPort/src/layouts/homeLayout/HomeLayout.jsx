@@ -4,10 +4,10 @@ import Header from "../../Components/Header/Header";
 
 function HomeLayout() {
 	return (
-		<div className="z-10 bg-[#0e0f1f]">
+		<div className="-z-30 bg-[#0e0f1f]">
 			<Header />
-			<div className="">
-				<div>
+			<div >
+				<div className="z-50">
 					<Outlet />
 				</div>
 			</div>

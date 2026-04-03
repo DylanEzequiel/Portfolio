@@ -14,15 +14,15 @@ function FramesSelector() {
 			uri: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6efa13101924743.5f2a943e1b2d2.png",
 			link: "/frame/Service",
 		},
-		// {
-		// 	title: "Ecommerce",
-		// 	descriptionEng:
-		// 		"Turn visitors into customers with a modern and efficient online store. Display your products beautifully, integrate payment methods, and provide an intuitive shopping experience. Designed for fast loading speeds and full responsiveness.",
-		// 	descriptionEsp:
-		// 		"Convierte visitantes en clientes con una tienda online moderna y eficiente. Muestra tus productos de manera atractiva, integra métodos de pago y brinda una experiencia de compra intuitiva. Diseñada para cargar rápido y adaptarse a cualquier pantalla.",
-		// 	uri: "https://www.australiansafetysigns.net.au/cdn/shop/products/caution_PAINTING_IN_PROGRESS.png?v=1571438564",
-		// 	link: "/frame/ecomerce",
-		// },
+		{
+			title: "Ecommerce",
+			descriptionEng:
+				"Turn visitors into customers with a modern and efficient online store. Display your products beautifully, integrate payment methods, and provide an intuitive shopping experience. Designed for fast loading speeds and full responsiveness.",
+			descriptionEsp:
+				"Convierte visitantes en clientes con una tienda online moderna y eficiente. Muestra tus productos de manera atractiva, integra métodos de pago y brinda una experiencia de compra intuitiva. Diseñada para cargar rápido y adaptarse a cualquier pantalla.",
+			uri: "https://www.australiansafetysigns.net.au/cdn/shop/products/caution_PAINTING_IN_PROGRESS.png?v=1571438564",
+			link: "/frame/ecomerce",
+		},
 		// {
 		// 	title: "Landing Page",
 		// 	descriptionEng:

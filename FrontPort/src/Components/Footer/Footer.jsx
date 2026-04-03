@@ -6,7 +6,7 @@ function Footer() {
 
 	return (
 		<footer className="bg-gray-800 shadow min-w-full">
-			<div className="md:flex md:justify-between md:items-center bg-gray-800 mx-auto p-4 w-full max-w-screen-xl">
+			{/* <div className="md:flex md:justify-between md:items-center bg-gray-800 mx-auto p-4 w-full max-w-screen-xl">
 				<span className="text-white text-sm sm:text-center">
 					{lang == "eng" ? "Created with love by: " : "Creado con amor por: "}
 					Correa Dylan
@@ -22,13 +22,8 @@ function Footer() {
 							<FaGithub />
 						</a>
 					</li>
-					{/* <li>
-            <a href="#" className="me-4 md:me-6 hover:underline">
-                <BsTwitterX />
-            </a>
-        </li> */}
 				</ul>
-			</div>
+			</div> */}
 		</footer>
 	);
 }

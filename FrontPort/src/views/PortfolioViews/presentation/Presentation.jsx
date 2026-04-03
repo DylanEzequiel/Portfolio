@@ -16,7 +16,7 @@ function Presentation() {
     <div className='relative w-full'>
       <img className='absolute rounded-sm w-[50rem] h-44' rel='preload' src="https://st2.depositphotos.com/12203114/47177/v/450/depositphotos_471777546-stock-illustration-japanese-background-wave-pattern-vector.jpg" alt="Background Banner" />
     </div>
-    <header className='flex-col gap-4 m-auto pt-24 max-w-[36rem] align-middle'>
+    <header className='flex-col gap-4 m-auto pt-24 max-w-[40rem] align-middle'>
             <div className='w-32 lg:w-40'>
                       
               <motion.button
@@ -45,8 +45,8 @@ function Presentation() {
 
               <div className='flex flex-row flex-wrap justify-start md:gap-2 p-2 max-w-svw font-semibold text-center'>
                 <a  
-                  href={lang=="eng"?"../../assets/Cv/Eng/Dylan Correa Cv ingles.pdf":"../../assets/Cv/Esp/Dylan Correa Cv español.pdf"}
-                  download={lang=="eng"?"Dylan Correa Cv ingles.pdf":"Dylan Correa Cv español.pdf"}
+                  href={lang=="eng"?"../../assets/Cv/Eng/CV_Dylan_Correa.docx":"../../assets/Cv/Esp/CV_Dylan_Correa_Español.docx"}
+                  download={lang=="eng"?"Dylan Correa Cv ingles.docx":"Dylan Correa Cv español.docx"}
                   className='flex justify-center mr-2 py-1 rounded-md font-semibold text-gray-400 hover:text-white hover:scale-105 duration-150'> 
                     <IoIosDownload className='m-auto pr-1 text-gray-200 text-2xl'/>
                     {lang=="eng"?"Resume":"Curriculum"}

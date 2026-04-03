@@ -26,9 +26,9 @@ function Slider() {
                 <li  onClick={()=>setRender("Experience")} className={[styleSection,conditional("Experience")]}>
                     {lang=="eng"?"Experience":"Experiencia"} 
                 </li> 
-                <li  onClick={()=>setRender("Proyects")} className={[styleSection,conditional("Proyects")]}>
+                {/* <li  onClick={()=>setRender("Proyects")} className={[styleSection,conditional("Proyects")]}>
                     {lang=="eng"?"Proyects":"Proyectos"}
-                </li>
+                </li> */}
                 
                 <li onClick={()=>setRender("Education")} className={[styleSection,conditional("Education")]}>
                     {lang=="eng"?"Education":"Educación"}
@@ -39,15 +39,15 @@ function Slider() {
 
             </ul>
         </header>
-        <main className='pt-10'>
+        <main className=''>
             <motion.div
             key={render} 
             variants={variants}
             initial="hidden"
             animate="visible"
-            className="w-full"
+            className="w-full min-h-[39rem] max-h-[39rem] overflow-y-hidden"
             >
-                {render == "Proyects"?<div> <Proyects/> </div>:""}
+                {/* {render == "Proyects"?<div> <Proyects/> </div>:""} */}
                 {render == "About Me"?<><AboutMe/></>:""}
                 {render == "Experience"?<><Experience/></>:""}
                 {render == "Education"?<><Education/></>:""}
