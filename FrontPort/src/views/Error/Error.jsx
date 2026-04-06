@@ -14,7 +14,7 @@ function Error() {
 					className="w-72 h-72"
 				/>
 				<h3>
-					{lang == "eng"
+					{lang === "eng"
 						? "we cannot find the page you are looking for right now!"
 						: "No pudimos encontrar la pagina que estas buscando!"}
 				</h3>
@@ -22,7 +22,7 @@ function Error() {
 					to={"/"}
 					className="flex justify-center gap-1 bg-indigo-900/40 hover:bg-indigo-900 m-2 px-4 py-1 rounded-md font-semibold text-white hover:scale-105 duration-150"
 				>
-					{lang == "eng" ? "Go back home" : "Volver"}
+					{lang === "eng" ? "Go back home" : "Volver"}
 				</Link>
 			</div>
 		</div>

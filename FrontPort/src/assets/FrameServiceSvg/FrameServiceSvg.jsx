@@ -1,7 +1,7 @@
 import React from "react";
 
 function FrameServiceSvg() {
-	return <div></div>;
+	return <div>a</div>;
 }
 
 export default FrameServiceSvg;

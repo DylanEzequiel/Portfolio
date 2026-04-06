@@ -10,7 +10,7 @@ function AboutService() {
 					className="h-72"
 					src="https://cdni.iconscout.com/illustration/premium/thumb/coding-illustration-download-in-svg-png-gif-file-formats--html-logo-source-code-programming-interface-web-development-webapp-and-pack-design-illustrations-3783951.png?f=webp"
 					alt=""
-				></img>
+				/>
 				<div className="px-20">
 					<h3 className="py-4 font-semibold text-3xl">
 						We have +5 years on web
@@ -102,7 +102,7 @@ function AboutService() {
 					className="h-72"
 					src="https://cdn.creazilla.com/cliparts/1998567/coding-svg-clipart-xl.png"
 					alt=""
-				></img>
+				/>
 			</aside>
 		</article>
 	);

@@ -88,7 +88,7 @@ function NavbarEccomerce() {
 						type="text"
 						placeholder="Bushcraft equipment"
 						className="border-none focus:border-none rounded-full focus:outline-none focus:ring-0 text-black"
-					></input>
+					/>
 					<div
 						style={{
 							backgroundColor: pageColors.terciario,
@@ -112,7 +112,6 @@ function NavbarEccomerce() {
 					</ul>
 				</div>
 			</header>
-			<div></div>
 		</div>
 	);
 }

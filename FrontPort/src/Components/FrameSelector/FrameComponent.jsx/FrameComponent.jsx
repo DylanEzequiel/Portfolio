@@ -22,7 +22,7 @@ function FrameComponent({
 			<div className="flex flex-col justify-center w-2/4 text-white">
 				<h4 className="text-3xl">{title}</h4>
 				<p className="text-md">
-					{lang == "Eng" ? descriptionEng : descriptionEsp}
+					{lang === "Eng" ? descriptionEng : descriptionEsp}
 				</p>
 				<Link
 					to={link}

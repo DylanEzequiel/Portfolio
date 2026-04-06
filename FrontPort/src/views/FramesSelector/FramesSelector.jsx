@@ -47,11 +47,11 @@ function FramesSelector() {
 			<ParallaxBGFrameSelector />
 			<header className="py-28">
 				<h4 className="p-2 font-semibold text-white text-4xl text-center">
-					{lang == "eng" ? "Frames" : "Plantillas"}
+					{lang === "eng" ? "Frames" : "Plantillas"}
 				</h4>
 
 				<p className="m-auto py-10 max-w-[48rem] font-semibold text-white text-lg text-center">
-					{lang == "eng"
+					{lang === "eng"
 						? "Explore this collection of templates designed for different purposes. Whether you need a business page, a portfolio, an online store or a blog, you'll find optimized and easy-to-customize options. Choose the one that best suits your project and let´s start building in minutes."
 						: "Explora esta colección de plantillas diseñadas para diferentes propósitos. Ya sea que necesites una página para un negocio, un portafolio, una tienda en línea o un blog, encontrarás opciones optimizadas y fáciles de personalizar. Elige la que mejor se adapte a tu proyecto y comencemos a construir en minutos."}
 				</p>
@@ -60,13 +60,13 @@ function FramesSelector() {
 				{pages.map((page, index) => {
 					return (
 						<FrameComponent
-							key={index}
+							key={page.title}
 							title={page.title}
 							descriptionEng={page.descriptionEng}
 							descriptionEsp={page.descriptionEsp}
 							uri={page.uri}
 							link={page.link}
-							reverse={index % 2 == 0}
+							reverse={index % 2 === 0}
 						/>
 					);
 				})}

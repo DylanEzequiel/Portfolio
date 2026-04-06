@@ -40,7 +40,7 @@ function ColorSelector() {
 			>
 				<ul className="gap-2 font-semibold">
 					<li>
-						<p>{language == "eng" ? "Main" : "Primario"}</p>
+						<p>{language === "eng" ? "Main" : "Primario"}</p>
 						<ColorPicker
 							id="principal"
 							defaultValue={pageColors.principal}
@@ -50,7 +50,7 @@ function ColorSelector() {
 						/>
 					</li>
 					<li>
-						<p>{language == "eng" ? "Secondary" : "Secundario"}</p>
+						<p>{language === "eng" ? "Secondary" : "Secundario"}</p>
 						<ColorPicker
 							id="secundario"
 							defaultValue={pageColors.secundario}
@@ -60,7 +60,7 @@ function ColorSelector() {
 						/>
 					</li>
 					<li>
-						<p>{language == "eng" ? "Third" : "Terciario"}</p>
+						<p>{language === "eng" ? "Third" : "Terciario"}</p>
 						<ColorPicker
 							id="terciario"
 							defaultValue={pageColors.terciario}
@@ -80,7 +80,7 @@ function ColorSelector() {
 						/>
 					</li>
 					<li>
-						<p>{language == "eng" ? "text" : "texto"}</p>
+						<p>{language === "eng" ? "text" : "texto"}</p>
 						<ColorPicker
 							id="text"
 							defaultValue={pageColors.text}

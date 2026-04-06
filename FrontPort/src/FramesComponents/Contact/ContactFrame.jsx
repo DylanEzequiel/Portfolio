@@ -52,7 +52,7 @@ function ContactFrame() {
 								maxLength={2500}
 								placeholder="Write your message here"
 								required
-							></textarea>
+							/>
 						</div>
 						<button
 							style={{ backgroundColor: pageColors.principal }}

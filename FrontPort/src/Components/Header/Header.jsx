@@ -38,7 +38,7 @@ function Header() {
 									<li
 										
 										className={` flex ${
-											lang == "esp"
+											lang === "esp"
 												? "text-white"
 												: "text-gray-400 opacity-90 hover:opacity-100 hover:text-gray-200"
 										} flex-row items-center gap-2  hover:cursor-pointer`}
@@ -47,14 +47,14 @@ function Header() {
 											switchFunction("esp");
 										}}
 									>
-										<span className={`font-bold ${lang == "esp"
+										<span className={`font-bold ${lang === "esp"
 												? "text-green-500"
 												: "text-gray-400/30"}`}>•</span>
 										Español
 									</li>
 									<li
 										className={` flex ${
-											lang == "eng"
+											lang === "eng"
 												? "text-white"
 												: "text-gray-400 opacity-90 hover:opacity-100 hover:text-gray-200"
 										} flex-row items-center gap-2  hover:cursor-pointer`}
@@ -62,7 +62,7 @@ function Header() {
 											switchFunction("eng");
 										}}
 									>
-										<span className={`font-bold ${lang == "eng"
+										<span className={`font-bold ${lang === "eng"
 												? "text-green-500"
 												: "text-gray-400/30"}`}>•</span>
 										English

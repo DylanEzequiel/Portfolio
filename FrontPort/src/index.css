@@ -14,7 +14,16 @@
   }
 }
 
+/* Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
 
+/* Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 html{
-    scroll-behavior: smooth;
+   
 }

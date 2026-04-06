@@ -14,11 +14,11 @@ function TechComp({title,iType,color}) {
       transition: 'opacity 0.2s ease'
     };
 
-  if (iType === "STY") return <MdOutlineStyle style={style} size={20} />
-  if (iType === "FE") return <LuAppWindow style={style} size={20}/>
-  if (iType === "DEV") return <MdDeviceHub style={style} size={20}/>
-  if (iType === "BE") return <LuBrainCircuit style={style} size={20}/>
-  if (iType === "DB") return <FaDatabase style={style} size={20}/>
+  if (iType === "STY") {return <MdOutlineStyle style={style} size={20} />}
+  if (iType === "FE") {return <LuAppWindow style={style} size={20}/>}
+  if (iType === "DEV") {return <MdDeviceHub style={style} size={20}/>}
+  if (iType === "BE") {return <LuBrainCircuit style={style} size={20}/>}
+  if (iType === "DB") {return <FaDatabase style={style} size={20}/>}
 
   }
   return (
