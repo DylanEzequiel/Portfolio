@@ -24,13 +24,13 @@ function Proyects() {
 	},[])
 
 	return (
-		<article  className="my-10 w-full">
+		<article  className="my-10 w-full min-h-[48rem] max-h-[48rem]">
 			<header>
 						<h4 className='py-10 font-semibold text-white text-2xl'>
 							<BiWindows  className='inline' size={30}/> Proyects
 						</h4>
 					</header>
-			<main  className="place-items-center gap-4 grid grid-cols-2 m-auto py-2 w-full">
+			<main  className="place-items-center gap-4 grid grid-cols-2 m-auto w-full min-h-[40rem] max-h-[40rem]">
 				{itemsToRender[step].map((project, index) => (
 					<ProyectComp
 						key={index}

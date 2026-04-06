@@ -3,28 +3,59 @@ import iceCream from "../../../assets/Proyects/iceCream/IceCream.jpg";
 import gestoria from "../../../assets/Proyects/GestoriaBravo/GestoriaBravo.jpg";
 import blockchain from "../../../assets/Proyects/Blockchain/Blockchain.jpg";
 import ecoCharge from "../../../assets/Proyects/ecoCharge/ecoCharge.jpg";
-
+import wishlist from "../../../assets/Proyects/Wishlist/wishlist.jpg"
+import purmamarca from "../../../assets/Proyects/Purmamarca/purmamarcaEccomerce.png"
+import jmservice from "../../../assets/Proyects/JMservice/jmservice.png"
 const projects = [
     {
-      title: "Pomodoro App",
+      title: "Pomodoro App ",
       url: null,
       techs: ["React Native", "Expo", "Calendar API"],
       descriptionEsp:
         "Aplicación en desarrollo basada en la técnica Pomodoro. La idea es integrarla con el calendario del dispositivo para registrar exámenes, tareas y proyectos, combinando gestión del tiempo con planificación académica.",
       descriptionEng:
         "A Pomodoro-based app currently in development. The goal is to integrate it with the device calendar to track exams, tasks, and project deadlines, combining time management with planning.",
-      github: "as",
+      github: "https://github.com/DylanEzequiel/Mobile-pomodoro",
     },
     {
-      title: "FrutaApp",
-      url: null,
-      techs: ["React Native", "IA", "Computer Vision"],
-      descriptionEsp:
-        "Aplicación mobile desarrollada en React Native que utiliza inteligencia artificial para escanear y reconocer frutas en tiempo real. Orientada a mejorar la experiencia de compra y aprendizaje nutricional.",
-      descriptionEng:
-        "A mobile app built with React Native that uses AI to scan and recognize fruits in real time. Focused on improving shopping experience and nutritional learning.",
-      github: "as",
-    },
+  title: "Montpellier Invitations",
+  techs: ["React", "TypeScript", "TailwindCSS"],
+  descriptionEsp:
+    "Plataforma para creación de invitaciones digitales dinámicas para bodas. Permite personalizar contenido, gestionar invitados y centralizar confirmaciones, mejorando la organización del evento.",
+  descriptionEng:
+    "Platform for creating dynamic digital wedding invitations. Enables content customization, guest management, and RSVP tracking, improving event organization.",
+    vercel: "https://technical-test-qoop-ai.vercel.app",
+},
+   {
+  title: "Wishlist",
+  techs: ["React", "TypeScript", "Transbank", "Node.js"],
+  url:wishlist,
+  descriptionEsp:
+    "Aplicación para gestión de listas de regalo para bodas con integración de pagos mediante Transbank. Permite a invitados contribuir de forma simple y segura, centralizando la gestión de regalos y transacciones.",
+  descriptionEng:
+    "Wedding gift list application with Transbank payment integration. Allows guests to contribute easily and securely, centralizing gift management and transactions.",
+    vercel: "https://wish-list.cl",
+},
+{
+  title: "Purmamarca Store",
+  techs: ["React", "TypeScript", "TailwindCSS", "WhatsApp API"],
+  url:purmamarca,
+  descriptionEsp:
+    "E-commerce enfocado en la venta de productos con finalización de compra vía WhatsApp. Se optimizó la accesibilidad del catálogo y la navegación, permitiendo a los usuarios concretar pedidos de forma directa y rápida. Esto facilitó el proceso de compra y contribuyó a un aumento en la cantidad de ventas.",
+  descriptionEng:
+    "E-commerce focused on product sales with checkout via WhatsApp. The catalog accessibility and navigation were optimized, allowing users to complete orders quickly and directly. This streamlined the purchase process and contributed to an increase in sales.",
+    vercel:"https://www.purmamarcastore.com.ar",
+},
+{
+  title: "JM Service",
+  techs: ["React", "TypeScript", "TailwindCSS"],
+  url:jmservice,
+  descriptionEsp:
+    "Landing page corporativa para una startup de servicios eléctricos y albañilería. Se diseñó una presentación clara y directa de los servicios, facilitando el contacto con potenciales clientes. Como resultado, se incrementó la captación de nuevos clientes.",
+  descriptionEng:
+    "Corporate landing page for an electrical and construction services startup. A clear and direct service presentation was designed to simplify client contact. As a result, new customer acquisition increased.",
+    vercel:"https://jmservice.com.ar",
+},
   {
     title: "EcoCharge",
     url: ecoCharge,

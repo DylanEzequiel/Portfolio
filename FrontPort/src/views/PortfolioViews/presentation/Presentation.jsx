@@ -49,7 +49,7 @@ function Presentation() {
                   download={lang=="eng"?"Dylan Correa Cv ingles.docx":"Dylan Correa Cv español.docx"}
                   className='flex justify-center mr-2 py-1 rounded-md font-semibold text-gray-400 hover:text-white hover:scale-105 duration-150'> 
                     <IoIosDownload className='m-auto pr-1 text-gray-200 text-2xl'/>
-                    {lang=="eng"?"Resume":"Curriculum"}
+                    {lang=="eng"?"Download Resume":"Descargar Curriculum"}
                   </a>
                 <span className='flex justify-center mx-2 py-1 rounded-md font-semibold text-gray-400 hover:text-white hover:scale-105 duration-150' >
                   <HiBriefcase  className='m-auto pr-1 text-gray-200 text-2xl' />
