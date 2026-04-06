@@ -6,7 +6,7 @@ import ecoCharge from '../../../assets/Proyects/ecoCharge/ecoCharge.jpg';
 import wishlist from '../../../assets/Proyects/Wishlist/wishlist.jpg';
 import purmamarca from '../../../assets/Proyects/Purmamarca/purmamarcaEccomerce.png';
 import jmservice from '../../../assets/Proyects/JMservice/jmservice.png';
-import Montpellier from '../../../assets/Proyects/Montpellier/Montpellier.png';
+import Montpellier from '../../../assets/Proyects/montpellier/montpellier.png';
 const projects = [
     // {
     //     title: 'Pomodoro App ',
